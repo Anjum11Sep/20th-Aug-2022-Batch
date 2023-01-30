@@ -19,8 +19,10 @@ public class Base
 		//created object of chromedriver
 
 		 driver = new ChromeDriver();
+		 // maximize window
 		
 		driver.manage().window().maximize();
+		
 		
 	//	driver.get("https://neostox.com/");
 		
