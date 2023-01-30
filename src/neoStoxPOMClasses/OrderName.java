@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class OrderName 
 {
-@FindBy(xpath = "(//input[@type='number'])[1]") private WebElement MobileNumField;
+    @FindBy(xpath = "(//input[@type='number'])[1]") private WebElement MobileNumField;
 	
 	@FindBy(id = "lnk_signup1") private WebElement SignInButton;
 	
