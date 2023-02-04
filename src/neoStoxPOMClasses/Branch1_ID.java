@@ -29,5 +29,11 @@ public class Branch1_ID
 		{
 			SignInButton.click();
 		}
+		
+		public void EnterPassword()
+		{
+			MobileNumField.sendKeys("1234");
+		}
+		
 
 }
